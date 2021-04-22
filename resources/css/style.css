@@ -38,3 +38,27 @@ h1 {
     text-align: right;
     margin-right: 2rem;
 }
+
+
+/* Paragraph-Flex Styling */
+
+#paragraph-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 8rem auto 4rem auto;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+}
+
+.paragraph i {
+    margin-bottom: 0.5rem;
+}
