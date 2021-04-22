@@ -1,0 +1,96 @@
+/* Universal Styling */
+
+html {
+    height: 100vh
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black, gray);
+    height: 100vh;
+    color: white;
+}
+
+
+/* Nav Styling */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-left: 180px solid rgb(146, 146, 146);
+    border-bottom: 230px solid transparent;
+}
+
+nav ul {
+    padding-top: 1rem;
+    list-style: none;
+    padding-left: 0;
+    margin-right: 1rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+}
+
+
+/* Main Styling */
+
+h1 {
+    text-align: right;
+    margin-right: 2rem;
+}
+
+
+/* Paragraph-Flex Styling */
+
+#paragraph-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 4rem auto 3rem auto;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.paragraph i {
+    margin-bottom: 0.5rem;
+}
+
+
+/* Button */
+
+button {
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    box-shadow: none;
+    color: white;
+}
