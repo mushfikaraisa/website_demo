@@ -62,3 +62,11 @@ h1 {
 .paragraph i {
     margin-bottom: 0.5rem;
 }
+
+
+/* Button */
+
+button {
+    margin: 0 auto;
+    display: block;
+}
