@@ -1,14 +1,14 @@
 /* Universal Styling */
 
 html {
-    height: 100vh
+    min-height: 100vh
 }
 
 body {
     margin: 0;
     padding: 0;
     background-image: linear-gradient(black, gray);
-    height: 100vh;
+    min-height: 100vh;
     color: white;
 }
 
@@ -90,6 +90,10 @@ h1 {
 #secret-message {
     text-align: center;
     display: none;
+}
+
+#carousel {
+    margin: 1rem auto;
 }
 
 
