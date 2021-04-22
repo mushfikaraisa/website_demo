@@ -82,6 +82,16 @@ h1 {
     margin-bottom: 0.5rem;
 }
 
+#center-big {
+    font-size: 2rem;
+    text-align: center;
+}
+
+#secret-message {
+    text-align: center;
+    display: none;
+}
+
 
 /* Button */
 
