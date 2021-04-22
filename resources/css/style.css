@@ -1,8 +1,14 @@
 /* Universal Styling */
 
+html {
+    height: 100vh
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-image: linear-gradient(black, gray);
+    height: 100vh;
 }
 
 
@@ -11,11 +17,19 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding-top: 1rem;
+    justify-content: space-between;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-left: 180px solid #555;
+    border-bottom: 250px solid transparent;
 }
 
 nav ul {
+    padding-top: 1rem;
     list-style: none;
     padding-left: 0;
     margin-right: 1rem;
@@ -29,10 +43,6 @@ nav ul li {
 
 
 /* Main Styling */
-
-main {
-    margin-top: 8rem;
-}
 
 h1 {
     text-align: right;
@@ -48,7 +58,7 @@ h1 {
     justify-content: space-between;
     align-items: center;
     width: 80%;
-    margin: 8rem auto 4rem auto;
+    margin: 5rem auto 3rem auto;
 }
 
 .paragraph {
