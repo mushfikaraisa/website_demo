@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Website Demo</title>
+    <meta name="description" content="A demo website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="resources/js/script.js" async defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="triangle-right"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p id="center-big">Here are some of best photos!</p>
+        <button type=button id="secret-button">Click here to see a secret message!</button>
+        <p id="secret-message">I like apples!</p>
+        <div id="carousel" class="carousel slide w-50 h-25" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="resources/images/alexander-krivitskiy-WTvsx1hlQUs-unsplash.jpg" class="d-block w-100" alt="a woman">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/images/damian-markutt-T41noNW7esg-unsplash.jpg" class="d-block w-100" alt="a sunny forest">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/images/jakob-owens-_SXxTHUkCwE-unsplash.jpg" class="d-block w-100" alt="coastal area">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/images/michele-mescolin-kIFzAv6x_Gw-unsplash.jpg" class="d-block w-100" alt="countryside">
+                </div>
+                <div class="carousel-item">
+                    <img src="resources/images/petar-avramoski-lc8kklZA1q4-unsplash.jpg" class="d-block w-100" alt="mountains">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>
