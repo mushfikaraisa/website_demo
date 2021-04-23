@@ -39,6 +39,60 @@
             </div>
         </div>
         <button type="button">Check Out My Work!</button>
+        <form id="newTaskForm" method="post" onsubmit="return false">
+
+        <div class="container">
+            <div class="form-row">
+                <div class="col-12">
+                    <div class="alert alert-danger errorMessage" role="alert" id='errorMessage'>
+                        A simple danger alert—check it out!
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-md-6  col-sm-12">
+                    <div class="form-group">
+                        <label for="task-name" class="form-label">Task Name</label>
+                        <input type="text" class="form-control" id="task-name" aria-describedby="taskname">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="task-description">Task Description</label>
+                        <textarea class="form-control" id="task-description" rows="5"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label for="assigned-to" class="form-label">Assigned To</label>
+                        <input type="text" class="form-control" id="assigned-to" aria-describedby="assigned to">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="due-date" class="form-label">Due Date</label>
+                        <input type="date" class="form-control" id="due-date" name="due-date">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="task-status">Status</label>
+                        <select class="form-control" id="task-status">
+                            <option selected value="To Do">To Do</option>
+                            <option value="In Progress">In Progress</option>
+                            <option value="Review">Review</option>
+                            <option value="Done">Done</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-12">
+                    <button class="btn btn-primary btn-block" type="submit" id="create-new-task">Create New
+                        Task</button>
+                </div>
+            </div>
+        </div>
+    </form>
     </main>
 </body>
 
